@@ -1,0 +1,51 @@
+--> Typescript is a language created at microsoft to address the shortcomings of Javscript
+--> Javascript is a kid without discipline
+--> Typescript is a kid with some discipline
+--> For simple projects: Javascript
+--> For medium to large projects: Typescipt
+-->TS is a superset of JS + some additional features
+
+// Benefits:
+--> static typing 
+--> code completion
+--> refactoring
+--> shorthand notations
+
+//Drawbacks
+--> Compilation step involved (.ts -> typescript compiler -> .js. This process is called transpilation)
+--> Discipline in coding
+
+// There are two types of programming languages:
+--> Statically-Typed: C++, C#, Java, Typescript
+--> Dynamically-Typed: Javascript, Python, Ruby
+
+--> Dynamically programming languages give a lot of flexibility but can also cause a lot of problems.
+
+eg:
+let number = 10;
+number = "a";
+Math.round(number); // the system can misbehave and can crash
+
+--> Typescipt is essentially Javascript with type checking. In TS we explicitly set the type of the variable
+
+Setting up the Development environment.
+
+Install Node
+run: npm i -g typescript
+check ts version: tsc -v
+To compile TS file: tsc <TS file name>
+
+Configuring the TS compiler: tsc --init
+
+To compile all ts file: tsc
+
+// Learn
+--> The any type
+--> Arraya
+--> Tuples
+--> Enums
+--> Functions
+--> Objects
+
+Javascript Built-In Types: number, boolean, string, null, undefined, Objects
+Typescript Built-In Types: any, unknown, never, enum, tuple 
